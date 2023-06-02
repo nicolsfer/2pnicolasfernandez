@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comparación de People</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+    .column {
+      flex: 1;
+      text-align: center;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+      <h2>Usuario Ramdom</h2>
+      <div>
+        <img id="random-user-picture" src="" alt="Foto de Random User" />
+        <p id="random-user-gender"></p>
+        <img id="random-user-status" src="" alt=" Comparación" />
+      </div>
+    </div>
+    <div class="column">
+      <h2>API Rick and Morty</h2>
+      <div>
+        <img id="rick-and-morty-picture" src="" alt="Foto de Rick and Morty" />
+        <p id="rick-and-morty-gender"></p>
+        <img id="rick-and-morty-status" src="" alt="Estado de Comparación" />
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="funciones.js"></script>
+</body>
+</html>
